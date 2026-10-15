@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Local data
+data/
+*.sqlite3
+*.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Editors / OS
+.vscode/
+.idea/
+.cursor/
+.DS_Store

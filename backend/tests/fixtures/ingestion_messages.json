@@ -1,0 +1,30 @@
+[
+  {
+    "message_id": "gm-flight-1",
+    "subject": "Flight changed for Berlin trip",
+    "from_address": "alerts@airline.example",
+    "to_addresses": ["user@example.com"],
+    "sent_at": "2026-10-01T09:30:00+00:00",
+    "plain_body": "Action required: your departure time changed.",
+    "labels": ["inbox", "category_updates"],
+    "provider": "gmail",
+    "provider_thread_id": "flight-thread-1",
+    "conversation_key": "thread:flight-thread-1",
+    "dedup_key": "rfc822:<flight-1@example.com>",
+    "raw_payload": {"fixture": true}
+  },
+  {
+    "message_id": "school-news-1",
+    "subject": "Campus newsletter weekly deals",
+    "from_address": "newsletter@school.edu",
+    "to_addresses": ["user@example.com"],
+    "sent_at": "2026-10-01T10:00:00+00:00",
+    "plain_body": "Unsubscribe anytime. Great promo this week.",
+    "labels": ["inbox", "category_promotions"],
+    "provider": "school",
+    "provider_thread_id": null,
+    "conversation_key": "subject:campus newsletter weekly deals",
+    "dedup_key": "content:fixture-news-1",
+    "raw_payload": {"fixture": true}
+  }
+]
